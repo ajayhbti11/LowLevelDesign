@@ -1,8 +1,6 @@
 package org.designpattern.behavioral.stretegypattern.withstretegy;
 
-interface  PaymentStrategy {
+public interface PaymentStrategy {
 
     void pay(int amount);
-
-
 }
