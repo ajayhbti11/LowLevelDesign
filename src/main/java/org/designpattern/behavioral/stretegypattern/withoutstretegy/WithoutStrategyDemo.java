@@ -1,4 +1,4 @@
-package org.designpattern.behavioral.stretegypattern;
+package org.designpattern.behavioral.stretegypattern.withoutstretegy;
 
 /**
  * ❌ Demo — WITHOUT Strategy Pattern
