@@ -1,18 +1,19 @@
 package org.designpattern.structural.decorator.withdecorator;
 
+/** Adds sugar to any Coffee (+₹5). */
+public class SugarDecorator extends CoffeeDecorator {
 
-public class SugarDecorator extends CoffeeDecorator{
     public SugarDecorator(Coffee coffee) {
         super(coffee);
     }
 
     @Override
     public String getDescription() {
-        return coffee.getDescription()+ "Sugar";
+        return coffee.getDescription() + " + Sugar";
     }
 
     @Override
     public double getCost() {
-        return super.getCost()+5.0;
+        return coffee.getCost() + 5.0;
     }
 }
