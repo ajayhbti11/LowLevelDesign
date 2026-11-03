@@ -6,4 +6,5 @@ public class EmailNotificationService implements NotificationService{
     public void sendNotification() {
         System.out.println("Email sent successfully ");
     }
+
 }
